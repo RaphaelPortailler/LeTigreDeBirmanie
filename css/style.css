@@ -104,9 +104,56 @@ a:hover{
 
 /* FOOTER */
 
-button{
+#button{
     background-color: rgb(78, 113, 236);
     padding: 10px;
     border: solid 1px white;
     border-radius: 100px;
+}
+
+
+@media screen and (max-width:767px){
+    header{
+        height: 100vh;
+        background-image: url(../img/tigre.jpg);
+        background-position: center;
+    }
+
+    #absolute{
+        position: static;
+    }
+
+    /* HEADER */
+
+    #buttonPhone{
+        background-color: black;
+        color: white;
+        border: solid 1px white;
+        border-radius: 100px;
+    }
+
+
+
+
+    /* MAIN */
+
+    .sidebarBlack::before{
+        display: none;
+    }
+
+    .sidebarBlack::after{
+        display: none;
+    }
+    
+    button{
+        order: -1;
+    }
+
+    .span2{
+        height: 100%;
+    }
+
+    .span2 h4{
+        display: none;
+    }
 }
