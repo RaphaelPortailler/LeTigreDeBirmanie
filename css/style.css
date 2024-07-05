@@ -99,3 +99,14 @@ a:hover{
     border-radius: 100px;
     border: solid 1px white;
 }
+
+
+
+/* FOOTER */
+
+button{
+    background-color: rgb(78, 113, 236);
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 100px;
+}
