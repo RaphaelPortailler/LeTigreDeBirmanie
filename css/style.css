@@ -51,7 +51,7 @@ a:hover{
     position: relative;
 }
 
-.absolute{
+#absolute{
     position: absolute;
     bottom: -43px;
     left: 50px;
